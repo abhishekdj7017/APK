@@ -80,15 +80,15 @@ body:before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opac
       <span>DM First Admin v6 Panel information and access</span>
     </div>
 
-    <!-- Replace APK_URL_HERE with the actual APK download URL -->
-    <a class="download-btn" href="𝗗𝗠𝗙𝗜𝗥𝗦𝗧_𝗔𝗗𝗠𝗜𝗡_𝘃𝟲_𝗣𝗔𝗡𝗘𝗟.apk" id="downloadButton">
+    <!-- Keep dm-first-admin-v6.apk in the same folder as this HTML file. -->
+    <a class="download-btn" href="dm-first-admin-v6.apk" download="DM-First-Admin-v6.apk" id="downloadButton">
       <svg class="android-icon" viewBox="0 0 24 24" aria-hidden="true">
         <path d="M17.6 9.48 19.44 6.3a.5.5 0 0 0-.87-.5l-1.87 3.24a11.2 11.2 0 0 0-9.4 0L5.43 5.8a.5.5 0 1 0-.87.5L6.4 9.48A9.1 9.1 0 0 0 2 16h20a9.1 9.1 0 0 0-4.4-6.52ZM7.5 13.25a.9.9 0 1 1 0-1.8.9.9 0 0 1 0 1.8Zm9 0a.9.9 0 1 1 0-1.8.9.9 0 0 1 0 1.8ZM4 17h16v2.5a1.5 1.5 0 0 1-1.5 1.5H17v1a1 1 0 0 1-2 0v-1H9v1a1 1 0 0 1-2 0v-1h-1.5A1.5 1.5 0 0 1 4 19.5V17Z"/>
       </svg>
       <span>Download APK</span>
       <span class="arrow">→</span>
     </a>
-    <p class="download-caption">DM First Admin v6 Panel</p>
+    <p class="download-caption">DM First Admin v6 Panel · APK 13.1 MB</p>
 
     <div class="specs">
       <div class="spec">
@@ -97,7 +97,7 @@ body:before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opac
       </div>
       <div class="spec">
         <div class="spec-label">▢ Size</div>
-        <div class="spec-value">13.01 MB</div>
+        <div class="spec-value">Check APK</div>
       </div>
       <div class="spec">
         <div class="spec-label">♙ Access</div>
@@ -121,13 +121,7 @@ body:before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opac
 </main>
 
 <script>
-/* Prevent placeholder links from being mistaken for real download URLs. */
-document.getElementById("downloadButton").addEventListener("click", function(event) {
-  if (this.getAttribute("href") === "𝗗𝗠𝗙𝗜𝗥𝗦𝗧_𝗔𝗗𝗠𝗜𝗡_𝘃𝟲_𝗣𝗔𝗡𝗘𝗟.apk") {
-    event.preventDefault();
-    alert("Please add your actual APK download URL in the HTML first.");
-  }
-});
+/* APK download is configured with a relative file URL. */
 </script>
 </body>
 </html>
