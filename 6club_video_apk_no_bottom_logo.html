@@ -1,0 +1,1192 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
+  <title>6Club Admin Panel - Official APK Download</title>
+  <meta name="description"
+    content="Download 6Club Admin Panel official Android APK (6CLUB_VIP_HACK.apk). Private Android access for registered VIP members." />
+  <meta name="theme-color" content="#07080b" />
+  <link rel="icon" type="image/png" href="https://6clubpanel.space/icon.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/" />
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Outfit:wght@500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !(function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod
+          ? n.callMethod.apply(n, arguments)
+          : n.queue.push(arguments);
+      };
+      if (!f._fbq) f._fbq = n;
+      n = f.fbq;
+      n.loaded = !0;
+      n.version = "2.0";
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s);
+    })(
+      window,
+      document,
+      "script",
+      "https://connect.facebook.net/en_US/fbevents.js",
+    );
+    fbq("init", "1140152221926629");
+    fbq("track", "PageView");
+  </script>
+  <noscript><img height="1" width="1" style="display: none"
+      src="https://www.facebook.com/tr?id=1140152221926629&ev=PageView&noscript=1" alt="" /></noscript>
+  <!-- End Meta Pixel Code -->
+
+  <style>
+    :root {
+      /* 6Club Cyber-Luxury Color System */
+      --bg-dark: #07080b;
+      --bg-gradient-top: #15110a;
+      --bg-gradient-bot: #050608;
+      
+      /* Card Surfaces */
+      --card-bg: rgba(16, 14, 11, 0.78);
+      --card-bg-gradient: linear-gradient(165deg, rgba(26, 21, 15, 0.88) 0%, rgba(13, 11, 8, 0.96) 100%);
+      --card-border: rgba(255, 175, 45, 0.32);
+      --card-border-glow: rgba(255, 160, 20, 0.22);
+      
+      /* Amber & Gold Core Palette */
+      --gold-primary: #ffaa17;
+      --gold-bright: #ffc95c;
+      --gold-deep: #e07d00;
+      --gold-subtle: rgba(255, 170, 23, 0.12);
+      --gold-glow: rgba(255, 165, 15, 0.38);
+
+      /* Accent & Status */
+      --neon-green: #10b981;
+      --neon-green-glow: rgba(16, 185, 129, 0.4);
+
+      /* Typography & Text */
+      --text-pure: #ffffff;
+      --text-highlight: #fffaee;
+      --text-sub: #ecd5ba;
+      --text-muted: #9f886f;
+      --text-dim: #71604e;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none !important;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    html,
+    body {
+      min-height: 100%;
+      min-height: 100dvh;
+      background-color: var(--bg-dark);
+    }
+
+    body {
+      font-family:
+        "Outfit",
+        "Plus Jakarta Sans",
+        system-ui,
+        -apple-system,
+        sans-serif;
+      color: var(--text-pure);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 24px 16px;
+      position: relative;
+      overflow-x: hidden;
+      background:
+        radial-gradient(ellipse 90% 60% at 50% -5%,
+          rgba(255, 165, 20, 0.28) 0%,
+          rgba(130, 75, 5, 0.14) 45%,
+          transparent 75%),
+        radial-gradient(circle at 50% 100%,
+          rgba(255, 130, 0, 0.08) 0%,
+          transparent 50%),
+        linear-gradient(180deg, var(--bg-gradient-top) 0%, var(--bg-gradient-bot) 100%);
+    }
+
+    /* Animated Ambient Breathing Aura */
+    body::before {
+      content: "";
+      position: fixed;
+      top: -15%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 680px;
+      height: 480px;
+      background: radial-gradient(circle,
+          rgba(255, 175, 30, 0.22) 0%,
+          rgba(240, 120, 10, 0.12) 40%,
+          transparent 72%);
+      filter: blur(50px);
+      pointer-events: none;
+      z-index: 0;
+      animation: ambientAura 7s ease-in-out infinite alternate;
+    }
+
+    @keyframes ambientAura {
+      0% {
+        transform: translateX(-50%) scale(0.92);
+        opacity: 0.7;
+      }
+      100% {
+        transform: translateX(-50%) scale(1.12);
+        opacity: 1;
+      }
+    }
+
+    /* Cyber Matrix Geometric Background Grid */
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(to right, rgba(255, 180, 45, 0.04) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 180, 45, 0.04) 1px, transparent 1px);
+      background-size: 38px 38px;
+      mask-image: radial-gradient(circle at 50% 45%, black 40%, transparent 85%);
+      -webkit-mask-image: radial-gradient(circle at 50% 45%, black 40%, transparent 85%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+
+
+    /* Premium video section placed above the download card */
+    .video-panel {
+      width: 100%;
+      margin: 0 0 20px;
+      padding: 10px;
+      border: 1px solid rgba(255, 175, 45, 0.24);
+      border-radius: 18px;
+      background: rgba(5, 5, 5, 0.52);
+      box-shadow: inset 0 1px 0 rgba(255, 235, 175, 0.05);
+      position: relative;
+      overflow: hidden;
+    }
+    .video-heading {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 2px 3px 11px;
+      color: #ffdda1;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .04em;
+    }
+    .video-live-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #10b981;
+      box-shadow: 0 0 10px rgba(16,185,129,.7);
+      flex: 0 0 auto;
+    }
+    .intro-video {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: contain;
+      background: #030303;
+      border: 1px solid rgba(255, 185, 45, .2);
+      border-radius: 14px;
+    }
+    .video-caption {
+      color: #9f886f;
+      font-size: 11px;
+      line-height: 1.5;
+      text-align: center;
+      margin: 10px 4px 1px;
+    }
+
+    .middle-brand-logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      margin: 14px auto 18px;
+      padding: 12px 16px;
+      border: 1px solid rgba(255, 175, 45, 0.22);
+      border-radius: 16px;
+      background: linear-gradient(135deg, rgba(255,170,23,.09), rgba(10,10,10,.65));
+      box-shadow: 0 0 22px rgba(255, 165, 15, .08), inset 0 1px 0 rgba(255,235,175,.05);
+    }
+    .middle-brand-logo img {
+      display: block;
+      width: min(190px, 72%);
+      max-height: 68px;
+      object-fit: contain;
+      filter: drop-shadow(0 0 10px rgba(255,170,23,.2));
+    }
+
+    /* Container Architecture */
+    .page-wrapper {
+      width: 100%;
+      max-width: 410px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      z-index: 2;
+      animation: cardEntrance 0.65s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+
+    @keyframes cardEntrance {
+      from {
+        opacity: 0;
+        transform: translateY(22px) scale(0.96);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    /* Futuristic Floating Glass Panel */
+    .app-card {
+      width: 100%;
+      background: var(--card-bg-gradient);
+      border: 1px solid var(--card-border);
+      border-radius: 28px;
+      box-shadow:
+        0 0 50px var(--card-border-glow),
+        0 30px 70px rgba(0, 0, 0, 0.95),
+        inset 0 1px 1px rgba(255, 235, 175, 0.4),
+        inset 0 0 20px rgba(255, 160, 20, 0.06);
+      backdrop-filter: blur(28px);
+      -webkit-backdrop-filter: blur(28px);
+      padding: 26px 22px 22px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Top Corner Cyber Light Bars */
+    .card-tech-bar {
+      position: absolute;
+      top: 0;
+      left: 10%;
+      right: 10%;
+      height: 2px;
+      background: linear-gradient(90deg,
+          transparent 0%,
+          rgba(255, 220, 130, 0.9) 35%,
+          var(--gold-primary) 50%,
+          rgba(255, 220, 130, 0.9) 65%,
+          transparent 100%);
+      box-shadow: 0 0 12px var(--gold-glow);
+    }
+
+    /* Top Status Bar: Live Network & VIP Status */
+    .system-status-bar {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(22, 17, 12, 0.85);
+      border: 1px solid rgba(255, 185, 45, 0.24);
+      border-radius: 100px;
+      padding: 5px 14px 5px 10px;
+      margin-bottom: 20px;
+      box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.1);
+    }
+
+    .status-pulse-dot {
+      width: 7px;
+      height: 7px;
+      background: var(--neon-green);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--neon-green);
+      position: relative;
+      flex-shrink: 0;
+    }
+
+    .status-pulse-dot::after {
+      content: "";
+      position: absolute;
+      inset: -3px;
+      border-radius: 50%;
+      border: 1.5px solid var(--neon-green);
+      animation: pulsePing 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+
+    @keyframes pulsePing {
+      0% {
+        transform: scale(0.8);
+        opacity: 1;
+      }
+      80%, 100% {
+        transform: scale(2.4);
+        opacity: 0;
+      }
+    }
+
+    .status-text {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #ffdda1;
+    }
+
+    .status-divider {
+      color: rgba(255, 180, 50, 0.35);
+      font-size: 10px;
+    }
+
+    /* Hero App Emblem with Floating 3D Levitation */
+    .emblem-wrapper {
+      position: relative;
+      margin-bottom: 18px;
+    }
+
+    .emblem-outer-glow {
+      position: absolute;
+      inset: -14px;
+      background: radial-gradient(circle,
+          rgba(255, 170, 20, 0.5) 0%,
+          rgba(255, 130, 0, 0.15) 50%,
+          transparent 75%);
+      filter: blur(16px);
+      border-radius: 36px;
+      z-index: 0;
+      animation: glowBreathing 3.6s ease-in-out infinite alternate;
+    }
+
+    @keyframes glowBreathing {
+      0% { opacity: 0.6; transform: scale(0.96); }
+      100% { opacity: 1; transform: scale(1.06); }
+    }
+
+    .emblem-frame {
+      position: relative;
+      z-index: 1;
+      width: 102px;
+      height: 102px;
+      border-radius: 26px;
+      background: linear-gradient(145deg, #231c12, #0d0a06);
+      padding: 3px;
+      box-shadow:
+        0 14px 30px rgba(0, 0, 0, 0.85),
+        0 0 25px rgba(255, 165, 20, 0.45);
+      animation: floatEmblem 4s ease-in-out infinite;
+    }
+
+    @keyframes floatEmblem {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+
+    .emblem-border-ring {
+      width: 100%;
+      height: 100%;
+      border-radius: 23px;
+      background: linear-gradient(135deg,
+          #ffe194 0%,
+          var(--gold-primary) 50%,
+          #8a4c00 100%);
+      padding: 2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .emblem-inner {
+      width: 100%;
+      height: 100%;
+      border-radius: 21px;
+      background: #0a0805;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .emblem-inner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* Brand Header: Logo & Title */
+    .brand-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+
+    .brand-logo-img {
+      height: 38px;
+      max-width: 190px;
+      object-fit: contain;
+      filter: drop-shadow(0 3px 12px rgba(255, 170, 20, 0.45));
+      margin-bottom: 6px;
+    }
+
+    .brand-subtitle-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: linear-gradient(90deg, rgba(255, 170, 20, 0.12), rgba(255, 170, 20, 0.22), rgba(255, 170, 20, 0.12));
+      border: 1px solid rgba(255, 185, 45, 0.35);
+      border-radius: 100px;
+      padding: 4px 14px;
+    }
+
+    .brand-subtitle-text {
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      background: linear-gradient(180deg, #ffffff 0%, #ffdf9e 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Subtitle Row with Futuristic Crossline */
+    .sub-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
+    .tech-line {
+      height: 1px;
+      flex: 1;
+      max-width: 48px;
+      background: linear-gradient(90deg, transparent, rgba(255, 180, 45, 0.5), transparent);
+    }
+
+    .sub-text {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-sub);
+      letter-spacing: 0.04em;
+    }
+
+    /* Futuristic Spec Telemetry Grid (3 Individual Micro-Cards) */
+    .spec-dashboard {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .spec-card {
+      background: rgba(22, 17, 12, 0.82);
+      border: 1px solid rgba(255, 180, 45, 0.24);
+      border-radius: 16px;
+      padding: 12px 6px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      transition: all 0.2s ease;
+      box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.08);
+    }
+
+    .spec-card:hover {
+      border-color: rgba(255, 185, 45, 0.5);
+      background: rgba(30, 23, 16, 0.9);
+      transform: translateY(-1px);
+    }
+
+    .spec-header {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      margin-bottom: 4px;
+    }
+
+    .spec-icon {
+      width: 12px;
+      height: 12px;
+      color: var(--gold-bright);
+      opacity: 0.9;
+    }
+
+    .spec-label {
+      font-size: 9.5px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .spec-value {
+      font-size: 15.5px;
+      font-weight: 800;
+      color: #ffffff;
+      letter-spacing: -0.01em;
+    }
+
+    .spec-value-vip {
+      color: var(--gold-bright);
+      text-shadow: 0 0 10px rgba(255, 170, 20, 0.4);
+    }
+
+    /* Verification Badge Pill */
+    .badge-pill {
+      width: 100%;
+      background: rgba(24, 18, 12, 0.88);
+      border: 1px solid rgba(255, 180, 45, 0.3);
+      border-radius: 100px;
+      padding: 9px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
+    }
+
+    .shield-icon {
+      width: 16px;
+      height: 16px;
+      color: var(--gold-primary);
+      flex-shrink: 0;
+    }
+
+    .badge-text {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-highlight);
+      letter-spacing: 0.01em;
+    }
+
+    /* Master Call To Action: 3D Liquid Gold Download Button */
+    .download-btn {
+      width: 100%;
+      background: linear-gradient(180deg,
+          #ffd875 0%,
+          #ffa812 40%,
+          #e67800 100%);
+      color: #120b02;
+      text-decoration: none;
+      padding: 16px 22px;
+      border-radius: 100px;
+      font-size: 18px;
+      font-weight: 900;
+      letter-spacing: 0.02em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      box-shadow:
+        0 12px 32px rgba(255, 155, 15, 0.5),
+        0 0 24px rgba(255, 185, 45, 0.35),
+        inset 0 1.5px 1px rgba(255, 255, 255, 0.75),
+        inset 0 -2px 4px rgba(120, 50, 0, 0.35);
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(255, 240, 180, 0.6);
+      cursor: pointer;
+      transition:
+        transform 0.16s cubic-bezier(0.16, 1, 0.3, 1),
+        box-shadow 0.16s ease,
+        filter 0.16s ease;
+    }
+
+    .download-btn:hover {
+      transform: translateY(-2px);
+      filter: brightness(1.08);
+      box-shadow:
+        0 16px 40px rgba(255, 155, 15, 0.65),
+        0 0 30px rgba(255, 195, 60, 0.5);
+    }
+
+    .download-btn:active {
+      transform: translateY(1px) scale(0.985);
+      box-shadow: 0 6px 20px rgba(255, 155, 15, 0.4);
+    }
+
+    /* Continuous Sweeping Light Shimmer Reflection */
+    .download-btn::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(110deg,
+          transparent 20%,
+          rgba(255, 255, 255, 0.7) 50%,
+          transparent 80%);
+      transform: translateX(-130%);
+      animation: btnLightSweep 3.2s ease-in-out infinite;
+    }
+
+    @keyframes btnLightSweep {
+      0%, 45% {
+        transform: translateX(-130%);
+      }
+      65%, 100% {
+        transform: translateX(130%);
+      }
+    }
+
+    .btn-android-icon {
+      width: 22px;
+      height: 22px;
+      fill: #120b02;
+      flex-shrink: 0;
+    }
+
+    .btn-arrow-icon {
+      font-size: 21px;
+      font-weight: 900;
+      line-height: 1;
+      color: #120b02;
+      transition: transform 0.18s ease;
+    }
+
+    .download-btn:hover .btn-arrow-icon {
+      transform: translateX(4px);
+    }
+
+    /* Security Trust Markers */
+    .trust-marker-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      margin-top: 14px;
+      flex-wrap: wrap;
+    }
+
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    .trust-item svg {
+      width: 13px;
+      height: 13px;
+      color: var(--gold-bright);
+    }
+
+    /* Disclaimer & Legal Links */
+    .card-disclaimer {
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--text-dim);
+      margin-top: 14px;
+      line-height: 1.4;
+    }
+
+    .card-divider {
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(255, 180, 45, 0.22), transparent);
+      margin: 14px 0 12px;
+    }
+
+    .card-links {
+      display: flex;
+      justify-content: center;
+      gap: 22px;
+    }
+
+    .card-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 600;
+      transition: color 0.15s ease;
+      padding: 4px 6px;
+    }
+
+    .card-links a:hover {
+      color: var(--gold-bright);
+    }
+
+    /* Toast Notification for Immediate Feedback */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: rgba(20, 16, 11, 0.96);
+      border: 1px solid rgba(255, 180, 45, 0.45);
+      border-radius: 16px;
+      padding: 13px 18px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      box-shadow:
+        0 18px 40px rgba(0, 0, 0, 0.9),
+        0 0 25px rgba(255, 165, 20, 0.3);
+      backdrop-filter: blur(18px);
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+      width: 90%;
+      max-width: 370px;
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+      pointer-events: auto;
+    }
+
+    .toast-icon {
+      width: 24px;
+      height: 24px;
+      color: var(--gold-primary);
+      flex-shrink: 0;
+    }
+
+    .toast-text {
+      font-size: 12.5px;
+      font-weight: 600;
+      color: #fffaee;
+      line-height: 1.4;
+    }
+
+    /* Privacy & Terms Modals */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.88);
+      backdrop-filter: blur(12px);
+      z-index: 999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s ease;
+    }
+
+    .modal-backdrop.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .modal-content {
+      background: #14100b;
+      border: 1px solid rgba(255, 180, 45, 0.38);
+      border-radius: 22px;
+      max-width: 420px;
+      width: 100%;
+      max-height: 80vh;
+      overflow-y: auto;
+      padding: 24px;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.95);
+      transform: scale(0.94);
+      transition: transform 0.25s ease;
+    }
+
+    .modal-backdrop.open .modal-content {
+      transform: scale(1);
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .modal-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--gold-bright);
+    }
+
+    .modal-close {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 24px;
+      cursor: pointer;
+      padding: 4px;
+      line-height: 1;
+    }
+
+    .modal-close:hover {
+      color: #ffffff;
+    }
+
+    .modal-body {
+      font-size: 13px;
+      line-height: 1.6;
+      color: var(--text-sub);
+    }
+
+    .modal-body h4 {
+      color: var(--gold-primary);
+      margin: 12px 0 4px;
+    }
+
+    .modal-body p {
+      margin-bottom: 10px;
+    }
+
+    /* Mobile Responsive Tuning */
+    @media (max-width: 360px) {
+      .app-card {
+        padding: 22px 16px 18px;
+      }
+
+      .emblem-frame {
+        width: 88px;
+        height: 88px;
+      }
+
+      .brand-logo-img {
+        height: 32px;
+      }
+
+      .download-btn {
+        font-size: 16px;
+        padding: 14px 18px;
+      }
+
+      .spec-value {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Disable Right-Click and Developer Shortcut Inspection -->
+  <script>
+    document.addEventListener("contextmenu", (e) => e.preventDefault());
+    document.onkeydown = (e) => {
+      if (e.keyCode === 123) return false;
+      if (e.ctrlKey && e.shiftKey && e.keyCode === 73) return false;
+      if (e.ctrlKey && e.keyCode === 85) return false;
+      if (e.ctrlKey && e.keyCode === 67) return false;
+      if (e.ctrlKey && e.keyCode === 83) return false;
+      if (e.ctrlKey && e.keyCode === 80) return false;
+    };
+  </script>
+
+  <div class="page-wrapper">
+    <!-- Main Cyber-Luxury Executive VIP Card -->
+    <main class="app-card">
+    <!-- Premium intro video above the download card -->
+    <section class="video-panel" aria-label="6Club introduction video">
+      <div class="video-heading">
+        <span class="video-live-dot"></span>
+        <span>WATCH INTRODUCTION</span>
+      </div>
+      <video class="intro-video" controls playsinline preload="metadata" poster="https://6clubpanel.space/logo.png">
+        <source src="YOUR_VIDEO_URL.mp4" type="video/mp4" />
+        Your browser does not support HTML video.
+      </video>
+      <p class="video-caption">Watch the app introduction before downloading.</p>
+    </section>
+
+      <!-- Centered 6Club logo between video and APK details -->
+      <div class="middle-brand-logo">
+        <img src="https://6clubpanel.space/logo.png" alt="6Club logo" />
+      </div>
+
+      <div class="card-tech-bar"></div>
+
+      <!-- Live Network & Encryption Status Header -->
+      <div class="system-status-bar">
+        <span class="status-pulse-dot"></span>
+        <span class="status-text">Network Active</span>
+        <span class="status-divider">•</span>
+        <span class="status-text">VIP Encrypted</span>
+      </div>
+
+      <!-- Lower app logo removed; centered 6Club logo remains above. -->
+
+      <!-- Subtitle Row: — Private Android access — -->
+      <div class="sub-row">
+        <span class="tech-line"></span>
+        <span class="sub-text">Private Android access</span>
+        <span class="tech-line"></span>
+      </div>
+
+      <!-- Modern Modular Spec Telemetry Grid -->
+      <div class="spec-dashboard">
+        <!-- Build Spec -->
+        <div class="spec-card">
+          <div class="spec-header">
+            <svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+              <polyline points="2 17 12 22 22 17"></polyline>
+              <polyline points="2 12 12 17 22 12"></polyline>
+            </svg>
+            <span class="spec-label">VERSION</span>
+          </div>
+          <span class="spec-value">V1.0.3</span>
+        </div>
+
+        <!-- Size Spec: Exact binary size for 6CLUB_VIP_HACK.apk -->
+        <div class="spec-card">
+          <div class="spec-header">
+            <svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+            </svg>
+            <span class="spec-label">SIZE</span>
+          </div>
+          <span class="spec-value">9.6 MB</span>
+        </div>
+
+        <!-- Access Spec -->
+        <div class="spec-card">
+          <div class="spec-header">
+            <svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+            </svg>
+            <span class="spec-label">ACCESS</span>
+          </div>
+          <span class="spec-value spec-value-vip">Private</span>
+        </div>
+      </div>
+
+      <!-- Verified Build Badge Pill -->
+      <div class="badge-pill">
+        <svg class="shield-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          <polyline points="9 12 11 14 15 10"></polyline>
+        </svg>
+        <span class="badge-text">Latest private build for registered members</span>
+      </div>
+
+      <!-- Primary Action Button: Real APK Download -->
+      <a id="downloadBtn" href="https://6clubpanel.space/6CLUB_VIP_HACK.apk" download="6CLUB_VIP_HACK.apk" class="download-btn" role="button"
+        aria-label="Download APK">
+        <!-- Android Robot SVG Icon -->
+        <svg class="btn-android-icon" viewBox="0 0 24 24">
+          <path
+            d="M6 18c0 .55.45 1 1 1h1v3.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5V19h4v3.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5V19h1c.55 0 1-.45 1-1V8H6v10zM3.5 8C2.67 8 2 8.67 2 9.5v7c0 .83.67 1.5 1.5 1.5S5 17.33 5 16.5v-7C5 8.67 4.33 8 3.5 8zm17 0c-.83 0-1.5.67-1.5 1.5v7c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5v-7c0-.83-.67-1.5-1.5-1.5zm-4.97-4.84l1.3-1.3c.2-.2.2-.51 0-.71-.2-.2-.51-.2-.71 0l-1.48 1.48C13.85 2.23 12.95 2 12 2c-.96 0-1.86.23-2.66.63L7.85 1.15c-.2-.2-.51-.2-.71 0-.2.2-.2.51 0 .71l1.31 1.31C6.97 4.26 6 5.92 6 7.8h12c0-1.88-.97-3.54-2.47-4.64zM9 5.5c-.41 0-.75-.34-.75-.75s.34-.75.75-.75.75.34.75.75-.34.75-.75.75zm6 0c-.41 0-.75-.34-.75-.75s.34-.75.75-.75.75.34.75.75-.34.75-.75.75z" />
+        </svg>
+        <span id="btnText">Download APK</span>
+        <span class="btn-arrow-icon">&rarr;</span>
+      </a>
+
+      <!-- Trust Telemetry Row -->
+      <div class="trust-marker-row">
+        <div class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+          <span>Direct APK</span>
+        </div>
+        <div class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          </svg>
+          <span>Scanned & Clean</span>
+        </div>
+        <div class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+          </svg>
+          <span>SSL Secured</span>
+        </div>
+      </div>
+
+      <!-- Legal Disclaimer -->
+      <p class="card-disclaimer">
+        18+ only | Follow local rules | Private access
+      </p>
+
+      <!-- Divider & Legal Links -->
+      <div class="card-divider"></div>
+      <div class="card-links">
+        <a href="#privacy" id="privacyLink">Privacy Policy</a>
+        <a href="#terms" id="termsLink">Terms of Service</a>
+      </div>
+    </main>
+  </div>
+
+  <!-- Toast Notification for Download Feedback -->
+  <div id="toast" class="toast">
+    <svg class="toast-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+      <polyline points="7 10 12 15 17 10"></polyline>
+      <line x1="12" y1="15" x2="12" y2="3"></line>
+    </svg>
+    <div class="toast-text">
+      Downloading 6Club APK... Check your notifications to install.
+    </div>
+  </div>
+
+  <!-- Privacy Modal -->
+  <div id="privacyModal" class="modal-backdrop">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">Privacy Policy</h3>
+        <button class="modal-close" id="closePrivacy">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Your privacy is our utmost priority. This application does not collect
+          unauthorized personal data or share device information with third
+          parties.
+        </p>
+        <h4>Data Protection</h4>
+        <p>
+          Information submitted during VIP registration is encrypted using
+          modern standards and strictly utilized for account authentication and
+          private member access.
+        </p>
+        <h4>Security Protocols</h4>
+        <p>
+          We implement end-to-end encryption protocols to ensure
+          your private access credentials remain fully protected.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Terms Modal -->
+  <div id="termsModal" class="modal-backdrop">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">Terms of Service</h3>
+        <button class="modal-close" id="closeTerms">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h4>Eligibility</h4>
+        <p>
+          You must be at least 18 years of age or the legal age of majority in
+          your jurisdiction to access and install this application.
+        </p>
+        <h4>Private VIP Access Only</h4>
+        <p>
+          This application is distributed strictly for authorized registered
+          members. Unauthorized redistribution or modification of APK binaries
+          is strictly prohibited.
+        </p>
+        <h4>Compliance</h4>
+        <p>
+          Users are required to follow all applicable local rules and
+          regulations regarding member utilities.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive Script & Download Tracking -->
+  <script>
+    const downloadBtn = document.getElementById("downloadBtn");
+    const btnText = document.getElementById("btnText");
+    const toast = document.getElementById("toast");
+
+    let toastTimer = null;
+
+    downloadBtn.addEventListener("click", function (e) {
+      // Track Facebook Pixel Lead / Download Event with Pixel ID 1140152221926629
+      try {
+        if (typeof fbq === "function") {
+          fbq("track", "Lead", {
+            content_name: "6club_apk_download",
+            content_category: "apk_download",
+          });
+          fbq("trackCustom", "DownloadAPK", {
+            appName: "6Club Admin Panel",
+            file: "6CLUB_VIP_HACK.apk",
+          });
+        }
+      } catch (err) {
+        console.error("Tracking error:", err);
+      }
+
+      // Visual feedback on button
+      btnText.textContent = "Downloading...";
+      downloadBtn.style.filter = "brightness(1.15)";
+
+      // Show Toast notification
+      toast.classList.add("show");
+      if (toastTimer) clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
+        toast.classList.remove("show");
+        btnText.textContent = "Download APK";
+        downloadBtn.style.filter = "";
+      }, 4000);
+    });
+
+    // Modals Logic
+    const privacyLink = document.getElementById("privacyLink");
+    const termsLink = document.getElementById("termsLink");
+    const privacyModal = document.getElementById("privacyModal");
+    const termsModal = document.getElementById("termsModal");
+    const closePrivacy = document.getElementById("closePrivacy");
+    const closeTerms = document.getElementById("closeTerms");
+
+    function openModal(modal) {
+      modal.classList.add("open");
+    }
+
+    function closeModal(modal) {
+      modal.classList.remove("open");
+    }
+
+    privacyLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      openModal(privacyModal);
+    });
+
+    termsLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      openModal(termsModal);
+    });
+
+    closePrivacy.addEventListener("click", () => closeModal(privacyModal));
+    closeTerms.addEventListener("click", () => closeModal(termsModal));
+
+    [privacyModal, termsModal].forEach((modal) => {
+      modal.addEventListener("click", (e) => {
+        if (e.target === modal) {
+          closeModal(modal);
+        }
+      });
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        closeModal(privacyModal);
+        closeModal(termsModal);
+      }
+    });
+  </script>
+</body>
+
+</html>
